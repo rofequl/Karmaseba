@@ -1,0 +1,55 @@
+
+
+
+
+
+
+
+
+
+
+
+
+/*GEt Info Page */
+
+
+
+#getInfo  ul  li{
+    border: none;
+    position: relative;
+    display: inline-block;
+    background: #e7f1f7;
+    width: 207px;
+    height: 52px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 0 0 14px;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+#getInfo  ul  li:after{
+    content: "";
+    position: absolute;
+    right: -13px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 13px solid #e7f1f7;
+    border-top: 27px solid transparent;
+    border-bottom: 25px solid transparent;
+}
+
+#getInfo  ul  li:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 0;
+    height: 0;
+    border-left: 11px solid #fdfaff;
+    border-top: 27px solid transparent;
+    border-bottom: 25px solid transparent;
+}

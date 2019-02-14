@@ -1,0 +1,423 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name:
+    Author:
+    Author URI:
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    1. Theme Default CSS (body, link color, section etc)
+    2.  Main nav bar
+    3.  Header Style
+    4.  Service bar design
+    5.  Recommended section design
+    6.  Real people Style
+    7.  Coverage Area section design
+    8.  Footer section design
+    9.  Get Help section design
+    10.  Text color apply
+
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.textShadow {
+    text-shadow: -3px 2px 3px #1b1e21;
+}
+
+.textColor {
+    color: #86C772 !important;
+}
+.dropdown-item:hover{
+    background-color: green!important;
+    color: white!important;
+}
+.active{
+    background-color: green!important;
+    color: white!important;
+}
+/*----------------------------------------*/
+/*  2.  Main nav bar
+/*----------------------------------------*/
+
+#mainNav {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fff;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-box-shadow: 0 2px 92px 0 rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0 2px 92px 0 rgba(0, 0, 0, 0.18);
+    box-shadow: 0 2px 92px 0 rgba(0, 0, 0, 0.18);
+}
+
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    font-size: .9rem;
+    font-weight: 700;
+    margin: 0 7px;
+    text-transform: capitalize;
+    color: #86C772;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+
+    color: #212529;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+    color: #86C772 !important;
+    background-color: transparent;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+    background-color: transparent;
+}
+
+/*----------------------------------------*/
+/*  3.  Header Style
+/*----------------------------------------*/
+
+header.masthead {
+    position: relative;
+    background: #343a40 url("../image/background.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.masthead h1 {
+    font-size: 2.5rem;
+    text-shadow: -2px 1px 2px black;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+header.masthead h4 {
+    text-shadow: -2px 1px 2px black;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#custom-search-input .search-query {
+    width: 100%;
+    padding-right: 3px;
+    padding-left: 15px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-style: italic;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    box-shadow: 2px 2px 4px 0 #00000069;
+}
+
+#custom-search-input button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: absolute;
+    right: 0;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #D9230F;
+    cursor: unset;
+    z-index: 2;
+}
+
+.search-query:focus {
+    z-index: 0;
+}
+
+.mastheadButton {
+    background-color: white !important;
+    color: #86C772 !important;
+    box-shadow: 2px 2px 4px 0 #00000069;
+}
+
+/*----------------------------------------*/
+/*  4.  Service bar design
+/*----------------------------------------*/
+
+#services {
+    background: #ffffff;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+#services .services-carousel {
+    display: flex;
+    text-align: center;
+}
+
+#services .services-carousel .services-block span {
+    font-size: 40px;
+}
+
+#services .services-block .service-heading {
+    margin: 15px 0;
+    text-transform: none;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+
+.features-icons .features-icons-item {
+    max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+    font-size: 5rem;
+}
+
+#workStart{
+    background-color: #F0F0F0;
+}
+
+#workStart h3 {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#workStart p {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.section-heading {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+
+/*----------------------------------------*/
+/*  5.  Recommended section design
+/*----------------------------------------*/
+
+#recommendedSection .textFamily {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 22px;
+    color: #0c5460;
+}
+
+
+.owl-item {
+    float: left;
+}
+
+#recommendedSection .services-block .service-heading {
+    margin: 15px 0;
+    text-transform: none;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+.bounceIn {
+
+}
+
+#recommendedSection .services-block .separator {
+    margin: 0 0 10px;
+    color: #8e6c6c;
+    font-size: 14px;
+    line-height: 1.75;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+.bounceIn i:hover {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn;
+}
+
+.rotate input:hover {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: flip;
+    animation-name: flip;
+}
+
+#recommendedSection .recommend-carousel .owl-stage-outer {
+    overflow: hidden;
+}
+
+#recommendedSection .recommend-carousel .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+}
+
+#recommendedSection .recommend-carousel .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    border: 0;
+    padding: 0 !important;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+#recommendedSection .recommend-carousel .owl-dot.active {
+    background-color: #b8a07e;
+}
+
+.owl-nav {
+    display: none;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*   6.  Real people Style
+/*-----------------------------------------------------------------------------------*/
+
+#realPeople .realPeople-image {
+    font-size: 12px;
+    color: black;
+}
+
+#realPeople .realPeople-image img {
+    border-radius: 50%;
+    width: 120px;
+    margin: 0 10px;
+    height: 120px;
+}
+
+/*----------------------------------------*/
+/*  7.  Coverage Area section design
+/*----------------------------------------*/
+
+#coverageArea{
+    background-image: url("../image/coverageArea.jpg");
+}
+
+#coverageArea .areaName {
+    line-height: 2.8rem;
+    color: #000000;
+}
+
+#bottomSection h3 {
+}
+
+#bottomSection a {
+    line-height: 1.8rem;
+    color: #000000;
+}
+
+/*----------------------------------------*/
+/*  8.  Footer section design
+/*----------------------------------------*/
+
+#footer {
+    background-color: #67727E;
+    color: #fff;
+}
+
+#footer a {
+    color: #00CCCC;
+}
+
+
+/*----------------------------------------*/
+/*  9.  Get Help section design
+/*----------------------------------------*/
+
+#getHelp .getHelpName {
+    line-height: 2rem;
+    color: #001a1a;
+    font-family: 'Lora', serif;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  10.  Text color apply
+/*-----------------------------------------------------------------------------------*/
+
+.text-color-orange {
+    color: #FF8533;
+}
+
+.text-color-pink {
+    color: #FF80BF;
+}
+
+.text-color-green {
+    color: #72C854;
+}
+
+.text-color-purple {
+    color: #B92EFF;
+}
+
+.text-color-brown {
+    color: #9C4F4F;
+}
+
+.text-color-cyan {
+    color: #00CCCC;
+}
+
+.text-color-blue {
+    color: #1FA5FF;
+}
+
+.text-color-gray {
+    color: #666666;
+}
+
+
+

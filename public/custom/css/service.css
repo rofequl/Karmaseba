@@ -1,0 +1,39 @@
+
+#serviceList .ser{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#serviceList .serviceListText{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #0c5460;
+    line-height: 18px;
+    text-align: center;
+}
+
+#repair2 .line,
+#repair1 .line{
+    height: 2px;
+    background-color: #00CCCC;
+}
+
+#repair2 .scoverBall,
+#repair1 .scoverBall{
+    width: 13px;
+    margin-left: auto;
+    background-color: #00CCCC;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: -7px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+#repair2 .serviceListText,
+#repair1 .serviceListText{
+    font-size: 11px;
+    color: #0c5460;
+    line-height: 18px;
+}

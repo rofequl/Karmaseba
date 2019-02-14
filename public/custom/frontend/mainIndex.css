@@ -1,0 +1,401 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name:
+    Author:
+    Author URI:
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    1. Theme Default CSS (body, link color, section etc)
+    2.  Main nav bar
+    3.  Header Style
+    4.  Service bar design
+    5.  Recommended section design
+    6.  Real people Style
+    7.  Coverage Area section design
+    8.  Footer section design
+    9.  Get Help section design
+    10.  Text color apply
+
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+.mainIndex {
+    font-family: Trebuchet MS, sans-serif;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-green{
+    background: rgba(81,175,51,255)!important;
+    color: white;!important;
+}
+
+.dropdown-item:hover{
+    background-color: #7ac263!important;
+    color: white!important;
+}
+.active{
+    background-color: #7ac263!important;
+    color: white!important;
+}
+
+#mainNav{
+    border-bottom: 1px solid rgba(33, 37, 41, 0.3);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-box-shadow: 0 2px 92px 0 rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0 2px 92px 0 rgba(0, 0, 0, 0.18);
+    box-shadow: 0 2px 92px 0 rgba(0, 0, 0, 0.18);
+}
+
+#mainNav .navbar-brand img{
+    width: 150px;
+}
+#mainNav a{
+    color: #7ac263;
+    font-size: 14px;
+}
+
+#mainNav .collapse ul li{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    font-size: .9rem;
+    font-weight: 700;
+    margin: 0 7px;
+    text-transform: capitalize;
+    color: #7ac263;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #346f20;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+    color: #7ac263 !important;
+    background-color: transparent;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+    background-color: transparent;
+}
+
+.dropdownWidth{
+    width: 220px!important;
+}
+
+/*----------------------------------------*/
+/*  3.  Header Style
+/*----------------------------------------*/
+
+header.masthead {
+    position: relative;
+    background: #343a40 url("../../image/background.png") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.masthead h1 {
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 1);
+    color: #ffffff;
+    font-family: Trebuchet MS, serif;
+    font-size: 37px;
+}
+header.masthead h4 {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 20px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #ffffff;
+    -ms-text-shadow: 0px 3px 5px rgba(0,0,0,2.17);
+    -o-text-shadow: 0px 3px 5px rgba(0,0,0,2.17);
+    -webkit-text-shadow: 0px 3px 5px rgba(0,0,0,2.17);
+    -moz-text-shadow: 0px 3px 5px rgba(0,0,0,2.17);
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 1);
+    color: #ffffff;
+}
+
+#custom-search-input .search-query {
+    width: 100%;
+    padding-right: 3px;
+    padding-left: 15px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    text-align: center;
+    font-family: Segoe UI, 'Helvetica Neue', Arial, sans-serif;
+    font-style: italic;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    box-shadow: 2px 2px 4px 0 #00000069;
+}
+
+#custom-search-input button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: absolute;
+    right: 0;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #7ac263;
+    cursor: unset;
+    z-index: 2;
+}
+
+.search-query:focus {
+    z-index: 0;
+}
+
+.mastheadButton {
+    background-color: white !important;
+    color: #7ac263!important;
+    box-shadow: 2px 2px 4px 0 #00000069;
+}
+
+/*----------------------------------------*/
+/*  4.  Service bar design
+/*----------------------------------------*/
+
+#services {
+    background: #ffffff;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+#services .services-carousel {
+    display: flex;
+    text-align: center;
+}
+
+#services .services-carousel .services-block img{
+    height: 70px;
+    width: 80px;
+}
+
+#services .services-block .service-heading {
+    text-transform: none;
+    font-family: Segoe UI, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+    display: block;
+}
+
+
+/*----------------------------------------*/
+/*  4.  Service bar design
+/*----------------------------------------*/
+
+#workStart{
+    background-color: #f9fafb;
+}
+
+#workStart h3 {
+    font-family: PadmaOMJ, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+#workStart p {
+    font-family: Segoe UI, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 11px;
+}
+
+
+#headingText .section-heading{
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 29px;
+    color: #000000;
+}
+
+
+/*----------------------------------------*/
+/*  5.  Recommended section design
+/*----------------------------------------*/
+
+#recommendedSection .textFamily {
+    font-family: Microsoft JhengHei, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: #737772;
+}
+
+
+.owl-item {
+    float: left;
+}
+
+#recommendedSection .services-block .service-heading {
+    margin: 15px 0;
+    text-transform: none;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+.bounceIn {
+
+}
+
+#recommendedSection .services-block .separator {
+    margin: 0 0 10px;
+    color: #8e6c6c;
+    font-size: 14px;
+    line-height: 1.75;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+.bounceIn i:hover {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn;
+}
+
+.rotate input:hover {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: flip;
+    animation-name: flip;
+}
+
+#recommendedSection .recommend-carousel .owl-stage-outer {
+    overflow: hidden;
+}
+
+#recommendedSection .recommend-carousel .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+}
+
+#recommendedSection .recommend-carousel .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    border: 0;
+    padding: 0 !important;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+#recommendedSection .recommend-carousel .owl-dot.active {
+    background-color: #b8a07e;
+}
+
+.owl-nav {
+    display: none;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*   6.  Real people Style
+/*-----------------------------------------------------------------------------------*/
+
+#realPeople .realPeople-image {
+    font-family: PadmaOMJ, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+    color: #000000;
+}
+
+
+/*----------------------------------------*/
+/*  7.  Coverage Area section design
+/*----------------------------------------*/
+
+#coverageArea{
+    background-image: url("../image/coverageArea.jpg");
+}
+
+#coverageArea .areaName {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    line-height: 50px;
+    color: #000000;
+}
+
+#bottomSection h3 {
+}
+
+#bottomSection a {
+    line-height: 1.8rem;
+    color: #000000;
+}
+
+/*----------------------------------------*/
+/*  9.  Get Help section design
+/*----------------------------------------*/
+
+#getHelp .getHelpName {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color: #131313;
+}
+
+
+#bottomSection a {
+    font-family: Segoe UI, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+/*----------------------------------------*/
+/*  8.  Footer section design
+/*----------------------------------------*/
+
+#footer {
+    background: url("../../image/footer.png") no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 200px;
+    padding-top:100px ;
+}
+
+#footer a {
+    color: #00CCCC;
+}
